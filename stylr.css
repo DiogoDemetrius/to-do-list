@@ -72,5 +72,36 @@ body {
     font-size: 1.4rem;
     text-transform: capitalize;
     display: flex;
+    align-items: center;
+    justify-content: center;
     justify-content: space-around;
+    width: 400px;
+    height: 50px;
+}
+
+#to_do_list li:hover {
+    background-color: var(--color-dark3);
+    transition: 0.4s;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+#btn-ok {
+    border: none;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    padding: 0.4rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#btn-ok:hover {
+    background-color: var(--color-green2);
+    width: 50px;
+    height: 50px;
 }
